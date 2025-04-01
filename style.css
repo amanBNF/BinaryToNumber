@@ -1,10 +1,12 @@
-.body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-.body{
+body{
+    background:linear-gradient(135deg, hsl(193, 76%, 46%), #0072ff);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,3 +22,16 @@
     width: 100%;
 }
 
+.inner-box{
+    box-shadow: 10px 7px 7px rgb(4, 111, 225);
+    padding-top: 20px;
+    border: 2px solid black;
+    width: 45vh;
+    height: 50vh;
+    border-radius: 5px;
+}
+
+.content{
+    padding-top: 45px;
+    /* border: 2px solid black; */
+}
